@@ -21,25 +21,21 @@ function App() {
       </Grid>
 
       {/* Tabla */}
-      <Grid>Elemento: Tabla</Grid>
-       {/* Grid Anidado */}
-       <Grid container spacing={2}>
-                     <Grid size={{ xs: 12, xl: 3 }}>
-                         <ControlWeather/>
-                     </Grid>
-                     <Grid size={{ xs: 12, xl: 9 }}>
-                         <TableWeather/>
-                     </Grid>
-                 </Grid>
-
-            
-
-
+      <Grid></Grid>
+      {/* Grid Anidado */}
+      <Grid container spacing={2}>
+        <Grid size={{ xs: 12, xl: 3 }}>
+          <ControlWeather />
+        </Grid>
+        <Grid >
+          <TableWeather />
+        </Grid>
+      </Grid>
 
       {/* Gráfico */}
-      <Grid>Elemento: Gráfico 1
-        <LineChartWeather/>
-        </Grid>
+      <Grid>
+        <LineChartWeather />
+      </Grid>
 
     </Grid>
   )
