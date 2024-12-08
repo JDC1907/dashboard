@@ -23,7 +23,7 @@ export default function ControlWeather() {
     const descriptionRef = useRef<HTMLDivElement>(null);
 
     {/* Variable de estado y función de actualización */ }
-    let [selected, setSelected] = useState(-1)//Inicial cuando se carga la pagina de manera prederteminada
+    let [, setSelected] = useState(-1)//Inicial cuando se carga la pagina de manera prederteminada
     //caracteristica de estado principal -> luego a un estado que va pasar que va mantenerlo, es decir cuando cambia el estado esta variable debe de cambiar y solo sera cambiada invocando esta seccion
     //no servira para poner como indice en la parte de items
 
